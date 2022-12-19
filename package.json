@@ -1,7 +1,7 @@
 {
-  "name": "app",
+  "name": "react-project-starter-js",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@chakra-ui/icons": "^2.0.12",
     "@chakra-ui/react": "^2.4.1",

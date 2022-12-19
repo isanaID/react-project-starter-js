@@ -25,6 +25,7 @@
     "operator-linebreak": "off",
     "import/no-dynamic-require": "off",
     "comma-dangle": "off",
-    "no-console": "off"
+    "no-console": "off",
+    "import/named": "off"
   }
 }
