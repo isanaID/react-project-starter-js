@@ -16,6 +16,7 @@ import { FullPageSpinner } from "./common/components";
 const FullPageError = lazy(() => import("./common/components/full-page-error"));
 const Home = lazy(() => import("./modules/home"));
 const LoginModules = lazy(() => import("./modules/login"));
+const ExampleModules = lazy(() => import("./modules/example"));
 
 function App() {
   const location = useLocation();
@@ -42,6 +43,7 @@ function App() {
       <Routes>
         <Route path="/home/*" element={<Home />} />
         <Route path="/login/*" element={<LoginModules />} />
+        <Route path="/example/*" element={<ExampleModules />} />
       </Routes>
     </Suspense>
   );
