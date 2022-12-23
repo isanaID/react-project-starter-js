@@ -1,7 +1,7 @@
-import { useAuth } from "../../lib/auth-provider/context";
+import shallow from "zustand/shallow";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import shallow from "zustand/shallow";
+import { useAuth } from "../../lib/auth-provider/context";
 
 function SecretPage({ children }) {
   const navigate = useNavigate();
