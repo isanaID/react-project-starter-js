@@ -26,6 +26,14 @@
     "import/no-dynamic-require": "off",
     "comma-dangle": "off",
     "no-console": "off",
-    "import/named": "off"
+    "import/named": "off",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never"
+      }
+    ]
   }
 }
