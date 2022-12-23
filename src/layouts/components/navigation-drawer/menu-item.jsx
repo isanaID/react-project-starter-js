@@ -9,6 +9,7 @@ function MenuItem({ leftIcon, title, to }) {
     <Button
       fontSize="sm"
       height="36px"
+      width="100%"
       lineHeight={5}
       variant="ghost"
       color="gray.600"
