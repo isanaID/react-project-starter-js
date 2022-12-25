@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 
 import Layout from "../../layouts/dashboard";
 
-const RandomPage = lazy(() => import("./views/random.jsx"));
+const RandomPage = lazy(() => import("./views/random"));
 
 function Modules() {
   return (
